@@ -8,7 +8,7 @@ authors = [
 ]
 description = "Natural Language (NL) to Linear Temporal Logic (LTL)"
 readme = "README.md"
-requires-python = ">=3.8,<3.11"
+requires-python = ">=3.8"
 
 keywords = [
     "natural language processing",
@@ -34,7 +34,6 @@ classifiers = [
 
 dependencies = [
     "pylogics",
-    "openai==1.12.0"
 ]
 
 [project.optional-dependencies]
